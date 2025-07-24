@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Aabid A. - Junior Front End Developer</title>
+  <meta name="description" content="Portfolio of Muhammad Aabid A. - Junior Front End Developer" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="bg-blue-50 text-gray-600 font-sans">
+  <div class="min-h-screen flex flex-col items-center justify-center p-6">
+    <div class="bg-white rounded-3xl shadow-xl p-10 max-w-3xl w-full text-center animate-fade-in">
+      
+      <!-- Profile Picture -->
+      <div class="relative w-40 h-40 sm:w-60 sm:h-60 mx-auto mb-6">
+        <div class="absolute inset-0 rounded-full bg-blue-600 animate-pulse"></div>
+        <img src="img/profile remove bg.png" alt="Profile picture of Muhammad Aabid"
+          class="absolute inset-0 w-full h-full object-cover rounded-full shadow-lg z-10" />
+      </div>
+
+      <!-- Name & Title -->
+      <h1 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-2">Muhammad Aabid A.</h1>
+      <h2 class="text-base sm:text-lg text-gray-600 mb-4">Junior Front End Developer</h2>
+
+      <!-- About -->
+      <p class="mb-4">
+        Learning Web2 development with a graphic design background. Exploring UI/UX while building basic coding skills. Curious about Web3 and where tech is heading.
+      </p>
+
+      <!-- Skills -->
+      <div class="mb-6">
+        <h3 class="text-lg font-semibold text-blue-600 mb-2">Skills</h3>
+        <ul class="flex flex-wrap gap-2 justify-center text-sm">
+          <li class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Adobe Illustrator (beginner)</li>
+          <li class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Figma (menengah)</li>
+          <li class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">HTML (beginner)</li>
+          <li class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">CSS (beginner)</li>
+          <li class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">JS (beginner)</li>
+        </ul>
+      </div>
+
+      <!-- Projects -->
+      <div class="mb-6">
+        <h3 class="text-lg font-semibold text-blue-600 mb-2">Projects</h3>
+        <p class="text-sm">
+          Most of my coding-related projects are still in early stages. However, I’ve done several UI design projects — including application UI design samples.
+        </p>
+      </div>
+
+      <!-- Project Cards -->
+<div class="grid md:grid-cols-2 gap-4">
+  <!-- MyShelf -->
+  <a href="https://drive.google.com/file/d/12gYMX-WtYQxMYQNoxg57YOLq_jMOAZQA/view?usp=sharing" target="_blank" class="block rounded-xl border p-4 hover:shadow-lg transition hover:bg-blue-100">
+    <img src="img/myshelf.jpg" alt="MyShelf" class="w-full h-auto rounded-md mb-2" />
+    <h4 class="font-semibold text-base text-gray-800">MyShelf Productivity App</h4>
+    <p class="text-sm text-gray-600">as Visual & UI Designer</p>
+    <p class="text-sm text-gray-600 mt-1">Mendesain tampilan visual aplikasi, termasuk elemen UI, gambar, dan layout untuk memberikan pengalaman pengguna yang menarik dalam konsep aplikasi MyShelf.</p>
+  </a>
+
+  <!-- Momentum in Autumn -->
+  <a href="https://drive.google.com/drive/folders/1XOyZEGKPwlfa-UkkOPYj6jHVODP1qWD5?usp=sharing" target="_blank" class="block rounded-xl border p-4 hover:shadow-lg transition hover:bg-blue-100">
+    <img src="img/book cover.jpg" alt="Momentum in Autumn" class="w-full h-auto rounded-md mb-2" />
+    <h4 class="font-semibold text-base text-gray-800">Momentum in Autumn</h4>
+    <p class="text-sm text-gray-600">as Illustrator</p>
+    <p class="text-sm text-gray-600 mt-1">Mendesain cover buku bertema musim gugur dengan ilustrasi daun melayang tertiup angin, suasana mendung, dan matahari tertutup awan, menciptakan nuansa ketenangan.</p>
+  </a>
+
+  <!-- Runverse -->
+  <a href="https://youtu.be/iPrOWvMfipM?si=Zf7LLLZtYpioWpxy" target="_blank" class="block rounded-xl border p-4 hover:shadow-lg transition hover:bg-blue-100">
+    <img src="img/runverse.jpg" alt="Runverse" class="w-full h-auto rounded-md mb-2" />
+    <h4 class="font-semibold text-base text-gray-800">Runverse Running App</h4>
+    <p class="text-sm text-gray-600">as Brand & Visual Designer</p>
+    <p class="text-sm text-gray-600 mt-1">Merancang logo, identitas visual, serta konsep aplikasi Runverse, termasuk alur pengguna dan fitur utama. Aplikasi ini menggabungkan ide Web3, AR/VR, dan AI.</p>
+  </a>
+</div>
+
+<br>
+
+      <!-- Social Links -->
+      <div class="mb-6">
+        <h3 class="text-lg font-semibold text-blue-600 mb-2">Social Links</h3>
+        <div class="flex justify-center gap-4 text-blue-500 text-sm">
+          <a href="https://www.linkedin.com/in/maabida" class="hover:underline" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:aabid@example.com" class="hover:underline">Email</a>
+          <a href="https://github.com/Zyldrim" class="hover:underline" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.instagram.com/aasaddin/" class="hover:underline" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form id="contactForm" class="space-y-4" action="mailto:aabid@example.com" method="POST" enctype="text/plain" aria-label="Contact form">
+        <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-2 border rounded-lg" required />
+        <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-2 border rounded-lg" required />
+        <textarea name="message" placeholder="Your Message" rows="4" class="w-full px-4 py-2 border rounded-lg" required></textarea>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">Send</button>
+      </form>
+
+      <!-- Success Message -->
+      <p id="formStatus" class="hidden text-green-600 text-sm mt-4">Message sent successfully!</p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
