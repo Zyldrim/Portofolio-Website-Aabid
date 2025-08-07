@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
       e.preventDefault();
       status.classList.remove('hidden');
       form.reset();
+      alert("Terima kasih! Tapi ini cuma form demo ya 😄 Pesanmu nggak beneran terkirim.");
     });
   }
 });
+
+
+
